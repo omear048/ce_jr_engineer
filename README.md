@@ -54,7 +54,7 @@ As far as users are concerned, this website has the following features:
 * Browser Support: Current versions of Chrome and Firefox (for simplicity's sake)
 * Restaurant database entries are _not_ required to maintain the same primary key between rake executions but no duplication should result
 
-[repo]: https://github.com/americanfinancing/ce_ji_engineer/tree/master
+[repo]: https://github.com/americanfinancing/ce_jr_engineer/tree/master
 [fork]: https://help.github.com/articles/fork-a-repo/
 [branch]: https://help.github.com/articles/creating-and-deleting-branches-within-your-repository/
 [pr]: https://help.github.com/articles/using-pull-requests/

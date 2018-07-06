@@ -5,13 +5,10 @@ Hello there potential teammate!  With this short quiz we hope to get a sense of 
 # Instructions
 
 1. Read through the mock ticket below.
-2. [Fork][fork] the [official repository][repo].
-3. [Create a topic branch][branch].
-4. Complete the mock ticket.
-5. Add, commit, and push your changes.
-6. [Submit a pull request][pr].
-7. Send an email to hr@americanfinancing.net letting them know you've completed the quiz.  Please include a link to your PR or include the PR number.
-8. Feel free to add any additional context to the PR you'd like.
+2. Download or clone the [official repository][repo].
+3. Complete the mock ticket.
+4. Zip up your changes.
+5. Send an email with your zip attached to hr@americanfinancing.net letting them know you've completed the quiz.
 
 # Mock Ticket
 
@@ -55,7 +52,4 @@ As far as users are concerned, this website has the following features:
 * Restaurant database entries are _not_ required to maintain the same primary key between rake executions but no duplication should result
 
 [repo]: https://github.com/americanfinancing/ce_jr_engineer/tree/master
-[fork]: https://help.github.com/articles/fork-a-repo/
-[branch]: https://help.github.com/articles/creating-and-deleting-branches-within-your-repository/
-[pr]: https://help.github.com/articles/using-pull-requests/
 [stimulus]: https://stimulusjs.org

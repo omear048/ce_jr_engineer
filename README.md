@@ -5,7 +5,7 @@ Hello there potential teammate!  With this short quiz we hope to get a sense of 
 # Instructions
 
 1. Read through the mock ticket below.
-2. Download or clone the [official repository][repo].
+2. [Download][zip] or clone the [official repository][repo].
 3. Complete the mock ticket.
 4. Zip up your changes.
 5. Send an email with your zip attached to hr@americanfinancing.net letting them know you've completed the quiz.
@@ -53,3 +53,4 @@ As far as users are concerned, this website has the following features:
 
 [repo]: https://github.com/americanfinancing/ce_jr_engineer/tree/master
 [stimulus]: https://stimulusjs.org
+[zip]: https://github.com/americanfinancing/ce_jr_engineer/archive/master.zip

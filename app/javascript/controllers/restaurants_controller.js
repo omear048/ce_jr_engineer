@@ -23,7 +23,9 @@ export default class extends Controller {
   nextPage(event) {
     event.preventDefault()
 
-    this._showRestaurantsByPage(this.currentPage + 1)
+    if (this.paginationNextTarget.className ==='pagination__link') {
+      this._showRestaurantsByPage(this.currentPage + 1)
+    }
   }
 
   previousPage(event) {
@@ -159,5 +161,12 @@ export default class extends Controller {
     } else {
       this.paginationPrevTargets.map(link => link.classList.remove(inactiveClass))
     }
+
+    if (this._getRestaurantPage(page).size < 24) {
+      this.paginationNextTargets.map(link => link.classList.add(inactiveClass))
+    } else {
+      this.paginationNextTargets.map(link => link.classList.remove(inactiveClass))
+    }
+
   }
 }

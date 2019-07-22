@@ -4,7 +4,6 @@ module Api::V1
 
     def index
       @restaurants = Restaurant.limit(per_page).offset(offset)
-      binding.pry 
 
       render json: {
         total_entries: Restaurant.count,
